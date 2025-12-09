@@ -1,0 +1,63 @@
+
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>mientras yo tenga cara no te quedas sin silla - Galería</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <div class="logo">
+         <img class="logo" src="/fotos/onlyfans-logo-png_seeklogo-382790.webp" alt="Logo">
+      </div>
+      <ul class="menu">
+        <li><a href="#">INICIO</a></li>
+        <li><a href="#">SOBRE MI</a></li>
+        <li><a class="active" href="#">GALERIA</a></li>
+        <li><a href="#">CONTACTO</a></li>
+      </ul>
+      <button class="menu-toggle" aria-label="Abrir menú">☰</button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1 class="title">Keila maza</h1>
+
+    <section class="controls">
+      <div class="chips">
+        <button class="chip">Categorias</button>
+        <button class="chip">orientacion</button>
+        <button class="chip">IA</button>
+      </div>
+    </section>
+
+    <section class="gallery" aria-label="Galería de imágenes">
+      <!-- Reemplaza los src por tus imágenes -->
+      <figure class="card"><img src="/fotos/Kei1.jpeg" alt="imagen 1"><figcaption>Imagen 1</figcaption></figure>
+      <figure class="card"><img src="/fotos/Kei2.jpeg" alt="imagen 2"><figcaption>Imagen 2</figcaption></figure>
+      <figure class="card"><img src="/fotos/Kei3.jpeg" alt="imagen 3"><figcaption>Imagen 3</figcaption></figure>
+      <figure class="card"><img src="/fotos/Kei4.jpeg" alt="imagen 4"><figcaption>Imagen 4</figcaption></figure>
+      <figure class="card"><img src="/fotos/Kei5.jpeg" alt="imagen 5"><figcaption>Imagen 5</figcaption></figure>
+      <figure class="card"><img src="/fotos/Kei6.jpeg" alt="imagen 6"><figcaption>Imagen 6</figcaption></figure>
+    </section>
+
+    <footer class="footer">
+      <p>© Keila maza</p>
+    </footer>
+  </main>
+
+  <script>
+    // Pequeño script para menú responsive
+    const btn = document.querySelector('.menu-toggle');
+    const menu = document.querySelector('.menu');
+    btn.addEventListener('click', () => {
+      menu.classList.toggle('open');
+    });
+  </script>
+</body>
+</html>
+
+</html>
